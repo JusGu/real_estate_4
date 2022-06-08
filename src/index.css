@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.spinnercontainer{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 120%;
+
+}
+.FormWrapper {
+  display: flex;
+  justify-content: center;
+  
+}
+.Form {
+
+  padding: 3vw;
+
+  margin: 3vw;
+}
+
+.Form Input{
+  margin-top: 1vh;
+}
+
+.Form .FormButton{
+  margin-top: 1vh;
+  width: 7rem;
+  height: 1.5rem;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.buttonWrapper{
+  display: flex;
+  justify-content: right;
+}
+
+.myTableContainer {
+  margin: 1vw;
+}

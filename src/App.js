@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Example from './table.js';
+import { ChakraProvider } from '@chakra-ui/react'
 function App() {
   return (
-    <div className="App">
-      <Example/>
+    <ChakraProvider>
+      <div className="App">
+        <Example />
 
-    </div>
+      </div>
+    </ChakraProvider>
+
   );
 }
 
